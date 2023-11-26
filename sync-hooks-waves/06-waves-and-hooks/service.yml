@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: simple-service
   namespace: example06
+  annotations:
 spec:
   type: ClusterIP
   selector:
